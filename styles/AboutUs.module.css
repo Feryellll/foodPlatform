@@ -1,0 +1,42 @@
+.container {
+  height: calc(100vh - 100px);
+  background-color: #1b1b1b;
+  display: flex;
+}
+.about{
+  flex: 1;
+  padding-top: 140px;
+}
+.item{
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.about h1{
+      color: rgb(128, 95, 39);
+      text-align: center;
+      font-size :30px;
+      font-family: Lucida Handwriting;
+      text-decoration: underline;
+    }
+    .about p{
+      color: rgb(197, 197, 197);
+      text-align: center;
+      font-size :150%;
+      display: block;
+      font-family: serif;
+  line-height: 1.2;
+      
+    }
+.about h3{
+  color: rgb(77, 60, 31);
+  text-align: center;
+  font-size :50px;
+  font-family: serif;
+}
+.row{
+  flex: 1;
+  padding: 5%;
+}
+

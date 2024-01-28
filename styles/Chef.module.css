@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  height: calc(100vh - 100px);
+  background-color: #1b1b1b;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    
+  }
+  .pagetitle{
+    padding-top: 5%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagetitle h1{
+    color: rgb(128, 95, 39);
+    font-family: Lucida Handwriting;
+    font-size: 200%;
+    text-decoration: underline;
+  }
+
+  .block {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+ 
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10%;
+  }
+  
+  .title {
+    margin-top: 10px;
+    color:rgb(128, 95, 39);
+    font-family: serif;
+    font-size: 200%;
+    text-decoration: underline;
+    cursor: pointer;
+  }
